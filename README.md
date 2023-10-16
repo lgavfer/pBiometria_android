@@ -7,14 +7,8 @@ Este proyecto utiliza una aplicación móvil para recoger beacons emitidos por u
  de datos y se muestran en la pantalla de nuestro móvil, en tiempo real. A su vez, muestra todos los datos procesados de
  diferentes maneras en una web alojada en un servidor local creado en MAMP.
 
-## Tabla de Contenidos
-
-1. [Instalación](#instalación)
-2. [Uso](#uso)
-3. [Contribución](#contribución)
-4. [Licencia](#licencia)
-
-## Instalación
+## Contenido
+Este repositorio contiene el archivo necesario para la instalación de la aplicación en el dispositivo móvil. 
 
 ### Requisitos
 
@@ -23,26 +17,11 @@ Este proyecto utiliza una aplicación móvil para recoger beacons emitidos por u
 - Aplicación móvil para recoger beacons
 
 ### Pasos de instalación
+1. Configurar la IP del ordenador en la clase Publicador.java para enviar los datos a la BBDD alojada de forma local.
+2. Instalar la aplicación móvil en tu dispositivo.
+3. Iniciar el servidor MAMP para la recepción de datos en el puerto 8888.
+4. Abrir la aplicación; la recepción y envío de datos es automática.
 
-1. Configurar Arduino y conectar el sensor.
-2. Instalar MAMP e iniciar el servidor local.
-3. Instalar la aplicación móvil en tu dispositivo.
-
-## Uso
-
-### Arduino
-
-1. Subir el programa al Arduino.
-2. Asegurarse de que el sensor esté funcionando correctamente.
-
-### MAMP
-
-1. Colocar los archivos de la web (el directorio src) en la carpeta correspondiente.
-2. Iniciar el servidor y visitar la página web.
-
-### Aplicación Móvil
-
-1. Abrir la aplicación.
 
 ## Autor
 
